@@ -1,6 +1,6 @@
 def roll_call_dwarves(array)# code an argument here
   # Your code here
-  array.collect{|dwarf| dwarf}
+  array.map{|dwarf| dwarf}
   puts array
 end
 
